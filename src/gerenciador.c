@@ -68,7 +68,7 @@ void adicionarProduto(Lista *l){
 		free(novo);
 		return;
 	}
-
+	
 	novo->distancia = get_int("Insira a distancia a percorrer (em km): ");	//get(dist);
 	novo->data_entrega = get_int("Insira a data de entrega no formato DDMMAAA: ");	//get(data_entrega);
 
@@ -116,22 +116,34 @@ void removerProduto(Lista *l){
 	}
 }
 
-void exibirProdutos(Lista *l){
-	int i = 0;
-	aux = l->inicio;
-	if(aux == NULL){
-		printf("\nNenhum produto foi cadastrado.");
-		return;
-	}
-	while (aux != NULL){
-		printf("\n");
-		printf("Produto [%d]:\n", i);
-		printf("ID: %d\n", aux->ID);
-		printf("Distância: %d\n", aux->distancia);
-		printf("Data de entrega: %d\n", aux->data_entrega);
-		aux = aux->prox;
-		i++;
-	};
+void exibirProdutos(Lista *l) {
+    int i = 0;
+    Produto *aux = l->inicio;
+    
+
+    if (aux == NULL) {
+        printf("\n==========================================================\n");
+        printf("||                Nenhum produto cadastrado.            ||\n");
+        printf("==========================================================\n");
+        return;
+    }
+
+    printf("\n==========================================================\n");
+    printf("||                   LISTA DE PRODUTOS                 ||\n");
+    printf("==========================================================\n");
+
+    while (aux != NULL) {
+        printf("----------------------------------------------------------\n");
+        printf("|| Produto [%d]                                         ||\n", i);
+        printf("|| ID: %-47d ||\n", aux->ID);
+        printf("|| Distância: %-40d ||\n", aux->distancia);
+        printf("|| Data de entrega: %-34d ||\n", aux->data_entrega);
+        printf("----------------------------------------------------------\n");
+        aux = aux->prox;
+        i++;
+    }
+
+    printf("==========================================================\n");
 }
 
 // SORTING
@@ -229,7 +241,6 @@ int main(void){
 					removerProduto(lista);
 					break;
 				case 3: 
-					printf("-----[PRODUTOS CADASTRADOS]------\n");
 					exibirProdutos(lista);
 					printf("\n\n");
 					break;
