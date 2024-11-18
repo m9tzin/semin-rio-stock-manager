@@ -15,6 +15,7 @@
 #include "libtools.h"
 
 // STRUCT
+
 typedef struct Produto{
 	int ID;
 	int distancia;
@@ -28,6 +29,7 @@ typedef struct Lista{
 }Lista;
 
 // Pointers aux
+
 Produto *aux;
 Produto *anterior;
 
@@ -41,6 +43,18 @@ Lista* criarLista(){
 }
 
 // FUNC
+
+int verificarID(Lista *l, int ID){
+	Produto *aux = l->inicio;
+	while(aux != NULL){
+		if(aux->ID == ID){
+			return 1;
+		}
+		aux = aux->prox;
+	}
+	return 0;
+}
+
 void adicionarProduto(Lista *l){
 	Produto *novo = (Produto*)malloc(sizeof(Produto));
 	if(novo == NULL){
@@ -48,6 +62,13 @@ void adicionarProduto(Lista *l){
 	}
 	// Dados do Produto
 	novo->ID = get_int("Insira ID do produto: ");	//get(ID);
+	
+	if(verificarID(l, novo->ID)){
+		printf("\nID já existente. Insira outro.\n\n");
+		free(novo);
+		return;
+	}
+
 	novo->distancia = get_int("Insira a distancia a percorrer (em km): ");	//get(dist);
 	novo->data_entrega = get_int("Insira a data de entrega no formato DDMMAAA: ");	//get(data_entrega);
 
