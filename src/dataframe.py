@@ -9,7 +9,7 @@ def gerar_dados_aleatorios(n):
         "DataEntrega": [
             int(f"{random.randint(2024, 2027)}{random.randint(1, 12):02}{random.randint(1, 28):02}")
             for _ in range(n)
-        ],  # Data de entrega aleatória no formato DDMMAAAA
+        ],  # Data de entrega aleatória no formato AAAAMMDD
     }
     
     df = pd.DataFrame(dados)
