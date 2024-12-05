@@ -122,7 +122,7 @@ Por fim, o projeto mostrou como a priorização de critérios de ordenação pod
 
 ## Apêndices
 ### Apêndice A - Diagrama dos passos seguidos e escolhas feitas para o algoritmo
-![DiagramaJPG](https://github.com/user-attachments/assets/4c2ff5fe-57bb-46fa-b664-10a2cfcf9aa8)
+[![DiagramaJPG](https://github.com/user-attachments/assets/4c2ff5fe-57bb-46fa-b664-10a2cfcf9aa8)](https://github.com/2024-2-INF0063-AED1/semin-rio-stock-manager/blob/f3d8215798dff1794df6dedc875501d09775146c/assets/DiagramaJPG.jpg)
 
 ### Apêndice B - Diagrama de Blocos que Ilustra o Funcionamento do Programa
 [![Diagrama_V3](https://github.com/user-attachments/assets/f421f3fa-b141-4e2e-a76a-29842293c0bc)](https://github.com/2024-2-INF0063-AED1/semin-rio-stock-manager/blob/585a944e5b814b7e8b7d7525c80cef4122d19d5a/assets/ap%C3%AAndice%20D.jpg)
