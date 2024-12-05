@@ -125,7 +125,8 @@ Por fim, o projeto mostrou como a priorização de critérios de ordenação pod
 [![DiagramaJPG](https://github.com/user-attachments/assets/4c2ff5fe-57bb-46fa-b664-10a2cfcf9aa8)](https://github.com/2024-2-INF0063-AED1/semin-rio-stock-manager/blob/f3d8215798dff1794df6dedc875501d09775146c/assets/DiagramaJPG.jpg)
 
 ### Apêndice B - Diagrama de Blocos que Ilustra o Funcionamento do Programa
-[![Diagrama_V3](https://github.com/user-attachments/assets/f421f3fa-b141-4e2e-a76a-29842293c0bc)](https://github.com/2024-2-INF0063-AED1/semin-rio-stock-manager/blob/585a944e5b814b7e8b7d7525c80cef4122d19d5a/assets/ap%C3%AAndice%20D.jpg)
+[https://github.com/2024-2-INF0063-AED1/semin-rio-stock-manager/blob/930ea37e5041ede84488f63a997256b5d76e6819/assets/Diagrama_V3.png](https://github.com/2024-2-INF0063-AED1/semin-rio-stock-manager/blob/930ea37e5041ede84488f63a997256b5d76e6819/assets/Diagrama_V3.png)
+
 
 ### Apêndice C - Descrição das funções oferecidas pela biblioteca `libtools.h`
 A biblioteca oferece funções de leitura de dados do tipo “int”, “float” e “strings”, além de garantir que o buffer de entrada seja limpo para evitar a leitura errônea de dados. O uso dessa biblioteca permite que a lógica de negócios do sistema de gerenciamento de estoque seja isolada das complexidades da implementação das estruturas de dados e algoritmos, facilitando a integração e garantindo um código mais organizado e eficiente.Ambos os métodos serão integrados de forma a otimizar a manipulação e a organização do estoque, permitindo uma gestão eficiente dos produtos armazenados. Entre as funções oferecidas pela biblioteca, estão: 
