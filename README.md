@@ -126,8 +126,7 @@ Por fim, o projeto mostrou como a priorização de critérios de ordenação pod
 
 
 ### Apêndice B - Diagrama de Blocos que Ilustra o Funcionamento do Programa
-https://github.com/2024-2-INF0063-AED1/semin-rio-stock-manager/blob/28ac822476b0c84a7effbea83972d6f208fb64f9/assets/Diagrama_V3.png
-
+![Diagrama V3](https://github.com/2024-2-INF0063-AED1/semin-rio-stock-manager/raw/9ace8b0cfc84ac332ecaf15c1b8ea5a0679e1029/assets/Diagrama_V3.png)
 
 ### Apêndice C - Descrição das funções oferecidas pela biblioteca `libtools.h`
 A biblioteca oferece funções de leitura de dados do tipo “int”, “float” e “strings”, além de garantir que o buffer de entrada seja limpo para evitar a leitura errônea de dados. O uso dessa biblioteca permite que a lógica de negócios do sistema de gerenciamento de estoque seja isolada das complexidades da implementação das estruturas de dados e algoritmos, facilitando a integração e garantindo um código mais organizado e eficiente.Ambos os métodos serão integrados de forma a otimizar a manipulação e a organização do estoque, permitindo uma gestão eficiente dos produtos armazenados. Entre as funções oferecidas pela biblioteca, estão: 
@@ -143,7 +142,7 @@ A biblioteca oferece funções de leitura de dados do tipo “int”, “float�
 5.**exibirMenu**: Mostra o menu principal do sistema de gerenciamento de estoques. Ela apresenta ao usuário uma série de opções, como adicionar ou remover produtos, exibir a lista de produtos, ordenar os itens conforme a data de entrega, ou carregar dados de um arquivo.
 
 ### Apêndice D - Exemplo do formato do arquivo CSV suportado pelo programa
-![Diagrama V3](https://github.com/2024-2-INF0063-AED1/semin-rio-stock-manager/raw/9ace8b0cfc84ac332ecaf15c1b8ea5a0679e1029/assets/Diagrama_V3.png)
+![Apêndice D](https://github.com/2024-2-INF0063-AED1/semin-rio-stock-manager/raw/c2b329317ddb993de099ec5765f275e07f4c7b5e/assets/ap%C3%AAndice%20D.jpg)
 
 
 <!-- SETUP -->
