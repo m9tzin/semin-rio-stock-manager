@@ -142,7 +142,8 @@ A biblioteca oferece funções de leitura de dados do tipo “int”, “float�
 5.**exibirMenu**: Mostra o menu principal do sistema de gerenciamento de estoques. Ela apresenta ao usuário uma série de opções, como adicionar ou remover produtos, exibir a lista de produtos, ordenar os itens conforme a data de entrega, ou carregar dados de um arquivo.
 
 ### Apêndice D - Exemplo do formato do arquivo CSV suportado pelo programa
-https://github.com/2024-2-INF0063-AED1/semin-rio-stock-manager/blob/28ac822476b0c84a7effbea83972d6f208fb64f9/assets/ap%C3%AAndice%20D.jpg
+![Diagrama V3](https://github.com/2024-2-INF0063-AED1/semin-rio-stock-manager/raw/9ace8b0cfc84ac332ecaf15c1b8ea5a0679e1029/assets/Diagrama_V3.png)
+
 
 <!-- SETUP -->
 ## Setup
