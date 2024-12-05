@@ -103,7 +103,7 @@ A opção por listas encadeadas revelou-se vantajosa no contexto do projeto, esp
 
 O Merge Sort foi escolhido como o algoritmo de ordenação devido à sua complexidade temporal constante de O(n log ⁡n), independentemente da ordem inicial dos dados. Essa estabilidade mostrou-se crucial no contexto de uma lista encadeada, onde não há acesso direto a índices como nos arrays. Além disso, o Merge Sort é mais adequado para listas encadeadas porque evita a necessidade de acesso repetido aos elementos intermediários, ao contrário do Quick Sort, que requer particionamento e pode atingir um desempenho de O(n²) em seu pior caso. Comparado ao Bubble Sort, cuja complexidade é O(n²) mesmo nos cenários intermediários, o Merge Sort apresentou maior eficiência e constância, especialmente ao lidar com grandes volumes de dados e múltiplos critérios de comparação. É possível observar como as estruturas de ordenação se comportam com o aumento de elementos a serem ordenados, intensificando o número de operações necessárias para a organização da lista, através da figura 1.
 
-https://github.com/2024-2-INF0063-AED1/semin-rio-stock-manager/blob/28ac822476b0c84a7effbea83972d6f208fb64f9/assets/Gr%C3%A1fico%20Merge.png
+![Gráfico Merge](https://github.com/2024-2-INF0063-AED1/semin-rio-stock-manager/raw/28ac822476b0c84a7effbea83972d6f208fb64f9/assets/Gr%C3%A1fico%20Merge.png)
 
 Figura 1. Gráfico mostrando a complexidade das estruturas de ordenação
 
