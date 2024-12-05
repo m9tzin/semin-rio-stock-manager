@@ -125,7 +125,7 @@ Por fim, o projeto mostrou como a priorização de critérios de ordenação pod
 [![DiagramaJPG](https://github.com/user-attachments/assets/4c2ff5fe-57bb-46fa-b664-10a2cfcf9aa8)](https://github.com/2024-2-INF0063-AED1/semin-rio-stock-manager/blob/f3d8215798dff1794df6dedc875501d09775146c/assets/DiagramaJPG.jpg)
 
 ### Apêndice B - Diagrama de Blocos que Ilustra o Funcionamento do Programa
-[https://github.com/2024-2-INF0063-AED1/semin-rio-stock-manager/blob/930ea37e5041ede84488f63a997256b5d76e6819/assets/Diagrama_V3.png](https://github.com/2024-2-INF0063-AED1/semin-rio-stock-manager/blob/930ea37e5041ede84488f63a997256b5d76e6819/assets/Diagrama_V3.png)
+https://github.com/2024-2-INF0063-AED1/semin-rio-stock-manager/blob/0302100ab80ec8c8dc6d1bf12bde80e9621b475c/assets/Diagrama_V3.png
 
 
 ### Apêndice C - Descrição das funções oferecidas pela biblioteca `libtools.h`
