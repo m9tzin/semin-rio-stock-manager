@@ -103,7 +103,7 @@ A opção por listas encadeadas revelou-se vantajosa no contexto do projeto, esp
 
 O Merge Sort foi escolhido como o algoritmo de ordenação devido à sua complexidade temporal constante de O(n log ⁡n), independentemente da ordem inicial dos dados. Essa estabilidade mostrou-se crucial no contexto de uma lista encadeada, onde não há acesso direto a índices como nos arrays. Além disso, o Merge Sort é mais adequado para listas encadeadas porque evita a necessidade de acesso repetido aos elementos intermediários, ao contrário do Quick Sort, que requer particionamento e pode atingir um desempenho de O(n²) em seu pior caso. Comparado ao Bubble Sort, cuja complexidade é O(n²) mesmo nos cenários intermediários, o Merge Sort apresentou maior eficiência e constância, especialmente ao lidar com grandes volumes de dados e múltiplos critérios de comparação. É possível observar como as estruturas de ordenação se comportam com o aumento de elementos a serem ordenados, intensificando o número de operações necessárias para a organização da lista, através da figura 1.
 
-![Gráfico Merge](https://github.com/2024-2-INF0063-AED1/semin-rio-stock-manager/raw/28ac822476b0c84a7effbea83972d6f208fb64f9/assets/Gr%C3%A1fico%20Merge.png)
+![Gráfico Merge](/assets/Gráfico%20Merge.png)
 
 Figura 1. Gráfico mostrando a complexidade das estruturas de ordenação
 
@@ -120,13 +120,16 @@ Por fim, o projeto mostrou como a priorização de critérios de ordenação pod
 4. DIETZ, Paul F. *Maintaining order in a linked list. In: Proceedings of the fourteenth annual ACM symposium on Theory of computing*. 1982. p. 122-127.
 5. HEARSON, Jim. *O que é gerenciamento de estoque? Disponível em: https://www.oracle.com/br/scm/inventory-management/what-is-inventory-management/*. Acesso em: 19 nov. 2024.
 
+## Apresentação
+https://docs.google.com/presentation/d/13OgVZOCVku7zqfG5pzkPP247VS97e92B8tZFC5QbBHg/edit?usp=sharing
+
 ## Apêndices
 ### Apêndice A - Diagrama dos passos seguidos e escolhas feitas para o algoritmo
-![Diagrama JPG](https://github.com/2024-2-INF0063-AED1/semin-rio-stock-manager/raw/294eba32650beae29c4e996206562e1c62c30fc8/assets/DiagramaJPG.jpg)
+![Diagrama JPG](/assets/DiagramaJPG.jpg)
 
 
 ### Apêndice B - Diagrama de Blocos que Ilustra o Funcionamento do Programa
-![Diagrama V3](https://github.com/2024-2-INF0063-AED1/semin-rio-stock-manager/raw/9ace8b0cfc84ac332ecaf15c1b8ea5a0679e1029/assets/Diagrama_V3.png)
+![Diagrama V3](/assets/Diagrama_V3.png)
 
 ### Apêndice C - Descrição das funções oferecidas pela biblioteca `libtools.h`
 A biblioteca oferece funções de leitura de dados do tipo “int”, “float” e “strings”, além de garantir que o buffer de entrada seja limpo para evitar a leitura errônea de dados. O uso dessa biblioteca permite que a lógica de negócios do sistema de gerenciamento de estoque seja isolada das complexidades da implementação das estruturas de dados e algoritmos, facilitando a integração e garantindo um código mais organizado e eficiente.Ambos os métodos serão integrados de forma a otimizar a manipulação e a organização do estoque, permitindo uma gestão eficiente dos produtos armazenados. Entre as funções oferecidas pela biblioteca, estão: 
@@ -142,7 +145,7 @@ A biblioteca oferece funções de leitura de dados do tipo “int”, “float�
 5.**exibirMenu**: Mostra o menu principal do sistema de gerenciamento de estoques. Ela apresenta ao usuário uma série de opções, como adicionar ou remover produtos, exibir a lista de produtos, ordenar os itens conforme a data de entrega, ou carregar dados de um arquivo.
 
 ### Apêndice D - Exemplo do formato do arquivo CSV suportado pelo programa
-![Apêndice D](https://github.com/2024-2-INF0063-AED1/semin-rio-stock-manager/raw/c2b329317ddb993de099ec5765f275e07f4c7b5e/assets/ap%C3%AAndice%20D.jpg)
+![Apêndice D](/assets/apêndice%20D.jpg)
 
 
 <!-- SETUP -->

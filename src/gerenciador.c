@@ -16,7 +16,6 @@
 #include <time.h>
 
 // STRUCT
-
 typedef struct Produto {
     int NP;              // Número do Pedido
     float distancia;     // Distância a percorrer
@@ -30,7 +29,6 @@ typedef struct Lista{
 }Lista;
 
 // Pointers aux
-
 Produto *aux;
 Produto *anterior;
 
@@ -44,7 +42,6 @@ Lista* criarLista(){
 }
 
 // FUNC
-
 int verificarNP(Lista *l, int NP) {
     Produto *aux = l->inicio;
     while (aux != NULL) {
@@ -105,12 +102,12 @@ void adicionarProduto(Lista *l) {
             printf("Data inválida. Por favor, insira um número inteiro no formato correto.\n");
             while (getchar() != '\n'); // Limpa o buffer de entrada
         } else if (novo->data_entrega <= 0) {
-            printf("A data de entrega deve ser um número positivo no formato DDMMAAAA.\n");
+            printf("A data de entrega deve ser um número positivo no formato AAAAMMDD.\n");
         } else {
             valido = 1; // Entrada válida
         }
     }
-
+    // Evitar a perca da lista.
     novo->prox = NULL;
 
     if (l->inicio == NULL) {
@@ -179,7 +176,6 @@ void lerCSV(Lista *l, const char *nome_arquivo) {
             fclose(arquivo);
             return;
         }
-
         // Parse da linha no formato CSV
         if (sscanf(linha, "%d,%f,%d", &novo->NP, &novo->distancia, &novo->data_entrega) == 3) {
             // Verifica se o ID já existe na lista
@@ -188,7 +184,6 @@ void lerCSV(Lista *l, const char *nome_arquivo) {
                 free(novo); // Libera a memória alocada para o produto não adicionado
             } else {
                 novo->prox = NULL;
-
                 // Inserir o novo produto na lista
                 if (l->inicio == NULL) {
                     l->inicio = novo;
@@ -203,7 +198,6 @@ void lerCSV(Lista *l, const char *nome_arquivo) {
             free(novo); // Libera a memória alocada para um produto inválido
         }
     }
-
     fclose(arquivo);
     printf("Produtos carregados com sucesso!\n");
 }
@@ -325,7 +319,6 @@ void liberarLista(Lista *l) {
         aux = aux->prox;      // Avança para o próximo
         free(temp);           // Libera o nó atual
     }
-
     free(l);  // Libera a estrutura da lista
     printf("Memória liberada com sucesso.\n");
 }
